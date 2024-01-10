@@ -11,6 +11,12 @@
     <PackageReference Include="MQTTnet" Version="4.3.3.952" />
   </ItemGroup>
 
+    <ItemGroup>
+	    <Content Include="Certs\**">
+		    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	    </Content>
+    </ItemGroup>
+
   <ItemGroup>
     <None Update="Certs\ca.crt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

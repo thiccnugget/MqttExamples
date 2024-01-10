@@ -1,5 +1,6 @@
-MqttExamples/Certs/
+MqttExamples/Certs/*
 MqttExamples/bin
 MqttExamples/obj
 .vs
+/.vs
 */.vs
